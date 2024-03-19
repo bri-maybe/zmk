@@ -229,8 +229,6 @@ const lv_img_dsc_t mountain = {
 };
 
 
-#define LV_ATTRIBUTE_MEM_ALIGN
-#endif
 
 #ifndef LV_ATTRIBUTE_IMG_EYE_ZMK
 #define LV_ATTRIBUTE_IMG_EYE_ZMK
