@@ -228,11 +228,11 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_EYE TEST
-#define LV_ATTRIBUTE_IMG_EYE TEST
+#ifndef LV_ATTRIBUTE_IMG_EYE_TEST
+#define LV_ATTRIBUTE_IMG_EYE_TEST
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_EYE TEST uint8_t eye
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_EYE_TEST uint8_t eye
     test_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
